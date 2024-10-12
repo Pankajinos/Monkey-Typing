@@ -25,7 +25,7 @@ sentences = [
 para = r.choice(sentences)
 t1 = time()
 print(para)
-userPara = input("Start Typing \n")
+userPara = input("start Typing \n")
 t2 = time()
 print(t2 - t1)
 
